@@ -79,7 +79,6 @@ function cardClicked(event) {
 const cardContainer = document.querySelector("#card-container");
 cardContainer.innerHTML = "";
 featherImages.forEach((cardImagePath, index) => {
-  print("Adding Image " + index);
   let card = document.createElement("img");
   card.classList.add("card");
   card.src = "card-back.png";

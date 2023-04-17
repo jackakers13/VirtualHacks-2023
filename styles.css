@@ -10,10 +10,10 @@ h1 {
   margin-top: 2rem;
 }
 
-#score {
+#subtitle, #score {
   font-size: 2rem;
   margin-bottom: 2rem;
-} */
+}
 
 #card-container {
   margin: 0 auto;
